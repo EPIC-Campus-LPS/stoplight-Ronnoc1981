@@ -1,0 +1,28 @@
+
+1. What is a Python library and how do you include one in your script?
+	A Python library is a collection of commands that allow you to do things you can't normally do and control external hardware.
+
+2. What does it mean for elements of a circuits to be in series vs. in parallel?
+	If the elements are in series, the current flows through them one after the other, while in parallel they are all hooked up to the power seperatly.
+
+3. Can you create a circuit of 3 light bulbs in series? Why or why not?
+	yes because there is nothing stopping the current. the lights might explode so you would want a resistor, but it would theoretically work.
+
+4. The stoplight pattern is Green ON for 5 seconds, Yellow ON for 1 seconds, and Red ON for 4 seconds. Define the function f ( t ) as a piecewise function that outputs 1 if the green light is on, 2 if the yellow light is on, and 3 if the red light is on over 10 seconds. The bounds of the function are 0 <= t <= 10
+
+    |0 <= t <= 5, f(t) = 1
+f(t){5 < t <= 6, f(t) = 2
+    |6 < t <= 10, f(t) = 3
+
+5. Sketch a graph of f ( t ) over 10 seconds using a step-like shape.
+
+    4-|
+      |
+    3-|                        -----------------
+      |                        |
+    2-|                     ---|
+      |                     |
+    1-|---------------------|
+      |
+    0-|__________________________________________
+       0   1   2   3   4   5   6   7   8   9   10
